@@ -50,10 +50,5 @@ ln -sf dotfiles/.emacs.d .
 sudo apt-get install ipython-notebook
 sudo apt-get install python-pandas
 
-# ~/.nanorc edit
-cat << EOF > ~/.nanorc
-# auto-indent, smooth scrolling, 
-set autoindent
-set smooth
-set tabsize 4
-EOF
+# cp .nanorc -> $HOME
+cp $HOME/setup/.nanorc $HOME
