@@ -52,3 +52,6 @@ sudo apt-get install -y python-pandas
 
 # cp .nanorc -> $HOME
 cp $HOME/setup/.nanorc $HOME
+
+# UTF-8 encoding default
+export LC_ALL="en_US.utf-8"
