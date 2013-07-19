@@ -46,3 +46,14 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# Install ipython, pandas
+sudo apt-get install ipython-notebook
+sudo apt-get install python-pandas
+
+# ~/.nanorc edit
+cat << EOF > ~/.nanorc
+# auto-indent, smooth scrolling, 
+set autoindent
+set smooth
+set tabsize 4
+EOF
