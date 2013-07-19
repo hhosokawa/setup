@@ -47,8 +47,8 @@ ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
 # Install ipython, pandas
-sudo apt-get install ipython-notebook
-sudo apt-get install python-pandas
+sudo apt-get install -y ipython-notebook
+sudo apt-get install -y python-pandas
 
 # cp .nanorc -> $HOME
 cp $HOME/setup/.nanorc $HOME
