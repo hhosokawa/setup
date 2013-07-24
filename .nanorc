@@ -7,6 +7,7 @@ set undo
 # nanorc, python
 include /usr/share/nano/nanorc.nanorc
 include /usr/share/nano/python.nanorc
+include /usr/share/nano/css.nanorc
 
 # HTML
 syntax "html" "\.htm[l]?$"
