@@ -2,6 +2,7 @@
 set autoindent
 set smooth
 set tabsize 4
+set undo
 
 # nanorc, python
 include /usr/share/nano/nanorc.nanorc
