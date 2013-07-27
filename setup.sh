@@ -46,7 +46,7 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
-# Install ipython, pandas
+# Install ipython, pandas, sqlite3
 sudo apt-get install -y ipython-notebook
 sudo apt-get install -y python-pandas
 
