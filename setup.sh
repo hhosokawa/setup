@@ -46,9 +46,10 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
-# Install ipython, pandas, sqlite3
+# Install ipython, pandas, sqlite3, pip
 sudo apt-get install -y ipython-notebook
 sudo apt-get install -y python-pandas
+sudo apt-get install -y sqlite3
 
 # cp .nanorc -> $HOME
 cp $HOME/setup/.nanorc $HOME
