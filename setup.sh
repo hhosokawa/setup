@@ -56,3 +56,8 @@ cp $HOME/setup/.nanorc $HOME
 
 # UTF-8 encoding default
 export LC_ALL="en_US.utf-8"
+
+# Install pip, twython, beautifulsoup
+sudo apt-get install -y python-pip python-dev build-essential
+sudo pip install twython
+sudo pip install beautifulsoup4
