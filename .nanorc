@@ -11,10 +11,12 @@ include /usr/share/nano/css.nanorc
 
 # HTML
 syntax "html" "\.htm[l]?$"
-color brightblue start="<" end=">"
+color green start="<" end=">"
 color red "&[^;[[:space:]]]*;"
-color yellow "".*"|qq\|.*\|"
+color brightblue "".*"|qq\|.*\|"
 color red "(alt|bgcolor|height|href|label|longdesc|name|onclick|onfocus|onload|onmouseover|size|span|src|style|target|type|value|width)="
+color magenta start="<!--" end="-->"
+color red "<!(doctype|DOCTYPE)[^>]*>"
 
 # sh
 syntax "sh" "\.sh$" "Makefile" "\.bashrc" "bashrc" "\.bash_aliases" "bash_aliases" "\.bash_profile" "bash_profile"
